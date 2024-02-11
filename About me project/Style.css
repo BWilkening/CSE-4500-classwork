@@ -1,0 +1,46 @@
+
+
+h1 {
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-top: auto;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 40px;
+}
+
+body {
+    min-height:100%;
+    text-align: center;
+    background-color: darkblue;
+    color: antiquewhite;
+    margin: 0;
+    padding: 0;
+    border: 5px solid cornflowerblue;
+}
+#schools {
+    display: flex;
+}
+#games {
+    display: flex;
+}
+#names {
+    text-align: left;
+    width: 40%;
+    height: 100%;
+    padding: 8px;
+    font-size: xx-large;
+}
+#logos {
+object-fit: cover;
+width: 80%;
+height: 20%;
+}
+#footer {
+    padding: 8px;
+    margin-top: 20px;
+    background-color: white;
+}
