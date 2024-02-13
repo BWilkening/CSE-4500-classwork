@@ -25,7 +25,7 @@ The following **bonus** features are implemented:
 
 ## Screenshot and/or Video Walkthrough
 
-<img src="C:\Users\bwilk\OneDrive\Documents\GitHub\CSE-4500-classwork\About me project\Images\AboutMe Image1.png" title='Screenshot1' alt='Screenshot1' />
+<img src="\Images\AboutMe Image1.png" title='Screenshot1' alt='Screenshot1' />
 
 
 ## Notes:
