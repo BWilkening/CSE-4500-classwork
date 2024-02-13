@@ -26,6 +26,7 @@ The following **bonus** features are implemented:
 ## Screenshot and/or Video Walkthrough
 
 <img src="\Images\AboutMe Image1.png" title='Screenshot1' alt='Screenshot1' />
+<img src="\Images\AboutMe Image2.png" title='Screenshot2' alt='Screenshot2' />
 
 
 ## Notes:
