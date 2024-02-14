@@ -8,19 +8,19 @@ Time spent: **4** hours spent in total
 
 The following **required** features are completed:
 
-- [y] Modifies title in head so that the tab has a unique name, (e.g. About Me). (1pts)
-- [y] Uses a mix of headers, paragraphs, and div's. (3pts)
-- [y] Includes at least 3 paragraphs. (3pts)
-- [y] Includes at least one image. (2pts)
-- [y] Includes a .css file to style with at least 4 ways to format the elements in the html. (3pts)
-- [y] Includes a link that directs to your Github account (can be main account or specifically to your Platform_Computing Repo). (3pts)
+- [x] Modifies title in head so that the tab has a unique name, (e.g. About Me). (1pts)
+- [x] Uses a mix of headers, paragraphs, and div's. (3pts)
+- [x] Includes at least 3 paragraphs. (3pts)
+- [x] Includes at least one image. (2pts)
+- [x] Includes a .css file to style with at least 4 ways to format the elements in the html. (3pts)
+- [x] Includes a link that directs to your Github account (can be main account or specifically to your Platform_Computing Repo). (3pts)
 
 The following **bonus** features are implemented:
 
-- [y] Applies different font(s). (0.5 pt)
-- [y] Applies border and margins. (0.5 pt)
-- [y] Applies collumn formatting for side by side view of text and images.(0.5 pt)
-- [y] Applies a footer with hyperlink. (0.5 pt)
+- [x] Applies different font(s). (0.5 pt)
+- [x] Applies border and margins. (0.5 pt)
+- [x] Applies collumn formatting for side by side view of text and images.(0.5 pt)
+- [x] Applies a footer with hyperlink. (0.5 pt)
 - [ ] DESCRIBE ANY OTHER FEATURES HERE.
 
 ## Screenshot and/or Video Walkthrough
