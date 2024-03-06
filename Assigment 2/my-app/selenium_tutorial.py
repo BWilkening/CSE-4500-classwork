@@ -18,4 +18,3 @@ submit_button.click()
 message = driver.find_element(by=By.ID, value="message")
 text = message.text
 
-driver.quit()
