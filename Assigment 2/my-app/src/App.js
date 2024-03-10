@@ -4,6 +4,10 @@
  function App() {
    return (
 <body>
+<div className="App">
+        <header className ="App-header"></header>
+    </div>
+    
     <h1>About Me
         <br></br>
         William Wilkening (Billy)
