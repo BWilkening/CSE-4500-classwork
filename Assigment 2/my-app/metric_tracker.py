@@ -34,6 +34,3 @@ while True:#presence_time < 50: # seconds
     # print(f"Number of clicks: {num_clicks}")
         
 driver.quit()
-#while True:{
- #   print()
-#}
