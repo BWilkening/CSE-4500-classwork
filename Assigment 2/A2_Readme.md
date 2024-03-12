@@ -22,7 +22,7 @@ The following **bonus** features are implemented:
 
 ## Screenshot and/or Video Walkthrough
 
-<img src="Assignment_2/Images/aboutMe react scrnsht1.png" title='About me Screenshot 1' alt='About me 1' />
+<img src="Images/aboutMe react scrnsht1.png" title='About me Screenshot 1' alt='About me 1' />
 
 
 ## Notes:
