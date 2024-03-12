@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "python": "^0.0.4",
-    "selenium-webdriver": "^4.18.1"
-  }
-}
