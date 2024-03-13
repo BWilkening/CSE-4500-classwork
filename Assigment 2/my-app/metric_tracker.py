@@ -8,8 +8,8 @@ def writeToCSV(filename : str, metrics : dict):
         #create writer object
         writer = csv.DictWriter(fp, fieldnames=metrics.keys())
 
-    writer.writeheader()
-    writer.writerow(metrics)
+        writer.writeheader()
+        writer.writerow(metrics)
 
 def main():
     # Initialize browser
