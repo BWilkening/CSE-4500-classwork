@@ -25,7 +25,7 @@ The following **bonus** features are implemented:
 <img src="Images/aboutMe react scrnsht1.png" title='About me Screenshot 1' alt='About me 1' />
 <img src="Images/aboutMe react scrnsht2.png" title='About me Screenshot 2' alt='About me 2' />
 <img src="Images/Tutorial output.png" title='Tutorial output' alt='Tutorial Output' />
-<img src="Images/metrict_tracker output.png" title='Metric Tracker' alt='Metric tracker' />
+<img src="Images/metric_tracker output.png" title='Metric Tracker' alt='Metric tracker' />
 
 
 ## Notes:
