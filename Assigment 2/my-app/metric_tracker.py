@@ -12,51 +12,37 @@ def writeToCSV(filename : str, metrics : dict):
     writer.writerow(metrics)
 
 def main():
+    # Initialize browser
     driver = webdriver.Chrome()
+    # Navigate to your website 
+    driver.get("http://localhost:3000/")
+    metrics = collections.defaultdict(list) # (current time : value)
 
-# Initialize browser
-driver = webdriver.Chrome()
-
-# Navigate to your website 
-driver.get("http://localhost:3000/")
-
-metrics = collections.defaultdict(list) # (current time : value)
-
-SAMPLE_SIZE = 10
-count = 0
-# Track presence time 
-start_time = time.time()
-presence_time = start_time
-while count < SAMPLE_SIZE:
-    current_time = time.time()
-    presence_time = current_time - start_time
-    print(f"Presence time: {presence_time} seconds")
-    metrics["Presence time (Seconds)"].append (presence_time)
+    SAMPLE_SIZE = 10
+    count = 0
+    # Track presence time 
+    start_time = time.time()
+    while count < SAMPLE_SIZE:
+        presence_time = start_time
+        current_time = time.time()
+        presence_time = current_time - start_time
+        print(f"Presence time: {presence_time} seconds")
+        metrics["Presence time (Seconds)"].append (presence_time)
     
-    # TIMESTAMP : "Present Time (Seconds)" : Presence Time
-    # TIMESTAMP : "Scrolling (Pixels)" : Scroll
-    # Track scrolling
-    scroll_height = driver.execute_script("return document.body.scrollHeight")  
-    current_scroll = driver.execute_script("return window.pageYOffset")
-    print(f"Scrolled {current_scroll}/{scroll_height} pixels")
-    metrics["Scrolling (Pixels)"].append (current_scroll/scroll_height)
+        # TIMESTAMP : "Present Time (Seconds)" : Presence Time
+        # TIMESTAMP : "Scrolling (Pixels)" : Scroll
+        # Track scrolling
+        scroll_height = driver.execute_script("return document.body.scrollHeight")  
+        current_scroll = driver.execute_script("return window.pageYOffset")
+        print(f"Scrolled {current_scroll}/{scroll_height} pixels")
+        metrics["Scrolling (Pixels)"].append (current_scroll/scroll_height)
     
-    count += 1
-    time.sleep(2) 
-
-    # Track clicks   
-    # buttons = driver.find_elements_by_tag_name("button")
-    # num_clicks = 0
-
-    # for button in buttons:
-    #     button.click()
-    #     num_clicks += 1
+        count += 1
+        time.sleep(2) 
         
-    # print(f"Number of clicks: {num_clicks}")
-        
-driver.quit()
-print(metrics)
-writeToCSV("Metrics.csv", metrics)
+    driver.quit()
+    print(metrics)
+    writeToCSV("metrics.csv", metrics)
 
-if _name_=="_main_":
+if __name__=="__main__":
     main()
