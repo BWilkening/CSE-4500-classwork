@@ -22,7 +22,7 @@ The following **bonus** features are implemented:
 
 ## Screenshot and/or Video Walkthrough
 
-<img src="Imagges/Interactive_Murder_Mystery.png" width='' alt='Murder mystery' />
+<img src="Images\Interactive_Murder_Mystery.png" width='' alt='Murder mystery' />
 <img src="Images/mongoDB_tutorial.png" width='' alt='MongoDB Tutorial' />
 
 
